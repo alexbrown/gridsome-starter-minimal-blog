@@ -44,7 +44,7 @@ query Post ($path: String!) {
   }
 
   .article-date {
-    color:rgba(0, 0, 0, 0.54);
+    color: var(--app-font-color);
     margin-top:0;
     font-size:.8em;
   }
