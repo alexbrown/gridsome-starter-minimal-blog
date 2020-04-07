@@ -3,7 +3,7 @@
     <div class="article">
       <h1 class="article-title">{{$page.post.title}}</h1>
       <p class="article-date"> {{ $page.post.date}} · <i>{{$page.post.timeToRead}} min read</i></p>
-      <p v-html="$page.post.content" />
+      <article v-html="$page.post.content" />
     </div>
   </Layout>
 </template>
