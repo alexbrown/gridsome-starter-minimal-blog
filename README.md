@@ -1,4 +1,4 @@
-# Gridsome Minimal Blog Stater
+# Gridsome Minimal Blog Starter
 
 A starter template for creating a minimal blog with Markdown
 
