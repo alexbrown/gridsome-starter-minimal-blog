@@ -84,7 +84,7 @@ body {
 
 a {
   border-bottom: 1px solid currentColor;
-  color: rgb(32, 201, 151);
+  color: var(--link-color);
   text-decoration: none;
 
 }
