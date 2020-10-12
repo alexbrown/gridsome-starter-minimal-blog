@@ -33,16 +33,22 @@ export default {
 :root {
     --app-background-color: #FFFFFF;
     --app-font-color: black;
+    --link-color: #00835c;
+    --footer-link-color: #686868;
 }
 
 [theme="dark"] {
     --app-background-color: #091A28;
     --app-font-color: white;
+    --link-color: #20c997;
+    --footer-link-color: #ADADAD;
 }
 
 [theme="sepia"] {
     --app-background-color: #F1E7D0;
     --app-font-color:#433422;
+    --link-color: #004732;
+    --footer-link-color: #686868;
 }
 
 body {
@@ -69,7 +75,7 @@ body {
 }
 
 .footer a {
-  color:gray;
+  color:var(--footer-link-color);
 }
 
 .footer-links a {
@@ -78,7 +84,7 @@ body {
 
 a {
   border-bottom: 1px solid currentColor;
-  color: rgb(32, 201, 151);
+  color: var(--link-color);
   text-decoration: none;
 
 }
