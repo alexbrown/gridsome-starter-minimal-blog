@@ -13,6 +13,11 @@ import Header from "@/components/Header";
 export default {
   components: {
     Header
+  },
+  metaInfo() {
+    return {
+      title: this.$page.post.title
+    };
   }
 };
 </script>
