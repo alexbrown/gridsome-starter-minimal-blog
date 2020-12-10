@@ -25,12 +25,12 @@ export default {
 </script>
 
 <style scoped="true">
-h1 {
-  font-size:2em;
-  margin:0;
-}
+  h1 {
+    font-size:2em;
+    margin:0;
+  }
 
-.post-list {
-  margin-top:20px;
-}
+  .post-list {
+    margin-top:20px;
+  }
 </style>

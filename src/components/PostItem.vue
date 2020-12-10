@@ -18,14 +18,14 @@ export default {
 </script>
 
 <style>
-.date {
-  margin-right:10px;
-  min-width: 60px;
-  display:inline-block;
-}
-.time-to-read {
-  margin-left:10px;
-  color:gray;
-  font-size:.8em;
-}
+  .date {
+    margin-right:10px;
+    min-width: 60px;
+    display:inline-block;
+  }
+  .time-to-read {
+    margin-left:10px;
+    color:gray;
+    font-size:.8em;
+  }
 </style>
